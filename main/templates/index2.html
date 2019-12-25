@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skigg</title>
+    <script src="{% static 'js/pageable.js' %}"></script>
+</head>
+<body><script>
+    new pageable("#example");
+</script>
+<main id="example">
+    <section data-anchor="Page 1">
+    Section 1
+  </section>
+        <section data-anchor="Page 2">
+    Section 2
+  </section>
+        <section data-anchor="Page 3">
+    Section 3
+  </section>
+</main>
+</body>
+</html>
