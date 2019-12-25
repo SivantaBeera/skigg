@@ -1,0 +1,23 @@
+.page-terms-body{
+    color: #002EFF;
+    font-size: 28px;
+}
+
+.page-terms-body .skigg-text > p{
+    margin-bottom: 30px;
+}
+
+.page-terms-body .skigg-table-cell{
+    text-align: left;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .page-terms-body{
+        font-size: 4.5vw;
+    }
+
+    .page-terms-body .skigg-section1{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

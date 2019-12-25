@@ -17,7 +17,7 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 		<link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https://gigster.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"{% static 'js/wp-emoji-release.min.js' %}"}};
 			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -35,20 +35,20 @@ img.emoji {
 }
 </style>
     <script src="{% static 'js/pageable.js' %}"></script>
-	<link rel='stylesheet' id='wp-block-library-css'  href='style.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='cookie-notice-front-css'  href='https://gigster.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-css-css'  href='https://gigster.com/wp-content/themes/gigster/assets/css/style.css?ver=5.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='dashicons-css'  href='https://gigster.com/wp-includes/css/dashicons.min.css?ver=5.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='gsb-features-main-css'  href='https://gigster.com/wp-content/plugins/gsb-features/src/GSBFeatures/assets/css/main/style.min.css?ver=0.0.2' type='text/css' media='all' />
-    <script type='text/javascript' src='https://gigster.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-    <script type='text/javascript' src='https://gigster.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-    <link rel='https://api.w.org/' href='https://gigster.com/wp-json/' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gigster.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://gigster.com/wp-includes/wlwmanifest.xml" />
-    <link rel="canonical" href="#" />
-    <link rel='shortlink' href='#' />
-    <link rel="alternate" type="application/json+oembed" href="https://gigster.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgigster.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://gigster.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgigster.com%2F&#038;format=xml" />
+	<link rel='stylesheet' id='wp-block-library-css'  href='{% static 'css/style.min.css' %}' type='text/css' media='all' />
+    <link rel='stylesheet' id='cookie-notice-front-css'  href='{% static 'css/front.min.css' %}' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-css-css'  href='{% static 'css/style.css' %}' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css'  href='{% static 'css/dashicons.min.css' %}' type='text/css' media='all' />
+    <link rel='stylesheet' id='gsb-features-main-css'  href='{% static 'css/style.min.css' %}' type='text/css' media='all' />
+    <script type='text/javascript' src='{% static 'js/jquery.js' %}'></script>
+    <script type='text/javascript' src='{% static 'js/jquery-migrant.min.js' %}'></script>
+{#    <link rel='https://api.w.org/' href='https://gigster.com/wp-json/' />#}
+{#    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gigster.com/xmlrpc.php?rsd" />#}
+{#    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://gigster.com/wp-includes/wlwmanifest.xml" />#}
+{#    <link rel="canonical" href="#" />#}
+{#    <link rel='shortlink' href='#' />#}
+{#    <link rel="alternate" type="application/json+oembed" href="https://gigster.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgigster.com%2F" />#}
+{#    <link rel="alternate" type="text/xml+oembed" href="https://gigster.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgigster.com%2F&#038;format=xml" />#}
 		<script type="text/javascript">
 			!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
 				analytics.load("m12xYXeTaS5qnRnAu3PCRhVo8KXhkt1y");
@@ -67,10 +67,10 @@ img.emoji {
 	<div class="home-page-body">
         <main id="example">
             <section data-anchor="Page 1">
-		<div id="gigster-section1" class="gigster-section gigster-section1 trackable">
-            <div class="gigster-header full-width-wrapper">
+		<div id="skigg-section1" class="skigg-section skigg-section1 trackable">
+            <div class="skigg-header full-width-wrapper">
                 <div class="centered-wrapper">
-                    <a class="gigster-header-menu-trigger" href="javascript:;" title="Menu">
+                    <a class="skigg-header-menu-trigger" href="javascript:;" title="Menu">
                         <span class="line1"></span>
                         <span class="line2"></span>
                     </a>
@@ -78,38 +78,41 @@ img.emoji {
                     <a class="form-btn desktop" href="/contact-us/" title="contact us">contact us<span class="dashicons dashicons-arrow-right-alt2"></span></a>
                     <a class="form-btn mobile" href="/contact-us/" title="contact">contact<span class="dashicons dashicons-arrow-right-alt2"></span></a>
                 </div>
+                <a href="#"><div class="skigg-header-logo">
+                <img src='{% static 'images/SkiggLogo.jpeg'  %}' width="20%" height="20%" padding-left >
+                </div></a>
             </div>
 
 
 
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
-					<div class="bg-graphic"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s1_gAR.svg" /></div>
-					<div id="gigster-section1-text-animation" class="is-hidden">
-						<p>Your new team is <br /><span class="typed-word-animation">dynamic</span><span class="light-blue">.</span></p>
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
+{#					<div class="bg-graphic"><img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/beacon.svg" /></div>#}
+					<div id="skigg-section1-text-animation" class="is-hidden">
+						<p>Enter data here <br /><span class="typed-word-animation">Data</span></p>
 					</div>
-					<h1 class="gigster-section1-h1">
-						<p>Your new team is <br /><span class="typed-word-animation">dynamic</span><span class="light-blue">.</span></p>
+					<h1 class="skigg-section1-h1">
+						<p>Enter data here <br /><span class="typed-word-animation">Data</span></p>
 					</h1>
 				</div>
 
 			</div>
 
-			<div class="vert-line"></div>
+			<div class="vert-line1"></div>
 		</div>
              </section>
 
         <section data-anchor="Page 2">
-		<div id="gigster-section2-wrapper" class="gigster-section2-wrapper trackable">
+		<div id="skigg-section2-wrapper" class="skigg-section2-wrapper trackable">
 
-			<div class="gigster-section gigster-section2">
-				<div class="bg-graphic bg-graphic-mr"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s2_gB.svg" /></div>
-				<div class="vert-line"></div>
-				<div class="gigster-table">
-					<div class="gigster-table-cell">
-						<div class="gigster-section2-content">
-							<div class="gigster-section2-content-scroller">
-																<div class="gigster-text gigster-text1 "><p>Your team is made up of top talent from around the world. Because the best people don't all come from one place. Brought together in just days, it's ready to work dynamically and expand without limits to build industry changing software. While breakthrough ideas require the best talent, finding the right people and building high performing teams can be hard. The reality is most companies don’t have the resources they need to innovate. But we’re about to change all of that.</p></div>
+			<div class="skigg-section skigg-section2">
+{#				<div class="bg-graphic bg-graphic-mr"><img src="https://skigg.com/wp-content/themes/gigster/assets/images/s2_gB.svg" /></div>#}
+{#				<div class="vert-line"></div>#}
+				<div class="skigg-table">
+					<div class="skigg-table-cell">
+						<div class="skigg-section2-content">
+							<div class="skigg-section2-content-scroller">
+																<div class="skigg-text skigg-text1 "><p>Enter data here</p></div>
 							</div>
 						</div>
 					</div>
@@ -120,89 +123,89 @@ img.emoji {
             </section>
             </main>
 
-		<div id="gigster-section3" class="gigster-section gigster-section3 trackable">
+		<div id="skigg-section3" class="skigg-section skigg-section3 trackable">
             <div class="bg-graphic"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s3_gR.svg" /></div>
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
-					<div class="gigster-text">
-						<p>This is gigster. We build and manage distributed teams like no one else. It’s a whole new approach to creating software that will make you rethink what your company is capable of.</p>					</div>
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
+					<div class="skigg-text">
+						<p>Enter the data here</p>					</div>
 				</div>
 			</div>
 		</div>
 
-		<div id="gigster-section4" class="gigster-section gigster-section4">
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
+		<div id="skigg-section4" class="skigg-section skigg-section4">
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
 											<ul>
 							<li>
-								<h4><p>Talented <br />teams.</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_teams.svg"></h4>
-								<div class="gigster-text"><p>Thousands of the brightest minds with top company experience. Vetted by peers, they form high-level teams that are passionate about what they do.</p></div>
+								<h4><p>Data <br />Data</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_teams.svg"></h4>
+								<div class="skigg-text"><p>Enter data here</p></div>
 							</li>
 							<li>
-								<h4><p>Proven <br />process.</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_process.svg"></h4>
-								<div class="gigster-text"><p>Thanks to insights from over 5,000 projects, our tested and always improving management process makes it easy for our teams to work together.</p></div>
+								<h4><p>Data <br />Data</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_process.svg"></h4>
+								<div class="skigg-text"><p>Enter data here</p></div>
 							</li>
 							<li>
-								<h4><p>Better <br />tools.</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_tools.svg"></h4>
-								<div class="gigster-text"><p>Customized tools for more productivity. Distributed development environments with advanced analytics. All the technology needed to build the next big thing.</p></div>
+								<h4><p>Data <br />Data</p><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s4_tools.svg"></h4>
+								<div class="skigg-text"><p>Enter data here</p></div>
 							</li>
 						</ul>
 									</div>
 			</div>
 		</div>
 
-		<div id="gigster-section5" class="gigster-section gigster-section5 trackable">
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
-					<div class="gigster-text"><p>gigster teams deliver real results time and again for the world’s top companies. Here are some recent success stories.</p></div>
+		<div id="skigg-section5" class="skigg-section skigg-section5 trackable">
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
+					<div class="skigg-text"><p>Enter data here</p></div>
 				</div>
 			</div>
 		</div>
 
-		<div id="gigster-section6" class="gigster-section gigster-section6">
-            <div class="bg-graphic"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s5_gRB.svg" /></div>
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
+		<div id="skigg-section6" class="skigg-section skigg-section6">
+            <div class="bg-graphic"><img src="{% static 'images/s5_gRB.svg' %}" /></div>
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
 					<ul>
 											<li>
-							<img src="https://gigster.com/wp-content/uploads/2019/10/brightroom.svg" />
-							<h4>A virtual reality experience. Delivered real fast.</h4>
-							<div class="gigster-text">Startup Brightroom struggled to find the right talent to build virtual 3D property walkthroughs that were more realistic than anything else. Gigster spun up a team that perfectly fit the specialized skillset required. This high performing group focused on the most essential features helping Brightroom launch the platform six months faster than planned.</div>
-														<a href="https://gigster.com/wp-content/uploads/2019/10/Brightroom.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>
+{#							<img src="https://gigster.com/wp-content/uploads/2019/10/brightroom.svg" />#}
+							<h4>Enter data here</h4>
+							<div class="skigg-text">Enter data here</div>
+{#														<a href="https://gigster.com/wp-content/uploads/2019/10/Brightroom.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>#}
 						</li>
 											<li>
-							<img src="https://gigster.com/wp-content/uploads/2019/10/pib.svg" />
-							<h4>Cutting onboarding from 30 days to 30 minutes.</h4>
-							<div class="gigster-text">Private Investment Bank (PIB) is a leading global bank for investors with assets in multiple currencies. They needed help with an app that would shorten times for new account onboarding. A Gigster team spread over three continents quickly found a way to cut the whole experience down to an astounding 30 minutes, the fastest in the world.</div>
-														<a href="https://gigster.com/wp-content/uploads/2019/10/PIB.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>
+{#							<img src="https://gigster.com/wp-content/uploads/2019/10/pib.svg" />#}
+							<h4>Enter data here</h4>
+							<div class="skigg-text">Enter data here</div>
+{#														<a href="https://gigster.com/wp-content/uploads/2019/10/PIB.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>#}
 						</li>
 											<li>
-							<img src="https://gigster.com/wp-content/uploads/2019/10/medicato.svg" />
-							<h4>A whole new vision for health care access.</h4>
-							<div class="gigster-text">Medicato’s goal is to revolutionize access to healthcare in Mexico. Instead of people travelling long distances for care, imagine if they could simply video conference with their doctors. Gigster helped Medicato build an app that delivered reliable video and a new way to pay. The launch was an instant success with 50k downloads in the first month.</div>
-														<a href="https://gigster.com/wp-content/uploads/2019/10/Medicato.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>
+{#							<img src="https://gigster.com/wp-content/uploads/2019/10/medicato.svg" />#}
+							<h4>Enter data here</h4>
+							<div class="skigg-text">Enter data here</div>
+{#														<a href="https://gigster.com/wp-content/uploads/2019/10/Medicato.pdf" class="download">download<span class="dashicons dashicons-arrow-down-alt2"></span></a>#}
 						</li>
 										</ul>
 				</div>
 			</div>
 		</div>
 
-		<div id="gigster-section7" class="gigster-section gigster-section7">
+		<div id="skigg-section7" class="skigg-section skigg-section7">
 			<div class="bg-graphic"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s7_gR.svg" /></div>
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
 					<ul>
 													<li>
-								<div class="gigster-text">“They helped us create not just a working product, but a working company.”</div>
-								<div class="gigster-text2">—Sam Fayed, Founder Brightroom</div>
+								<div class="skigg-text">Enter data here</div>
+								<div class="skigg-text2">Enter data here</div>
 							</li>
 													<li>
-								<div class="gigster-text">“We were hoping to be able to open customer accounts in 24 hours, gigster showed us how to do it in 30 minutes.”</div>
-								<div class="gigster-text2">—Carlos Molina, Chairman PIB</div>
+								<div class="skigg-text">Enter data here</div>
+								<div class="skigg-text2">Enter data here</div>
 							</li>
 													<li>
-								<div class="gigster-text">“With gigster, we were able to deliver a mobile app for accessing quality health care in under six months.”</div>
-								<div class="gigster-text2">—Alberto Hauser, CEO Medicato</div>
+								<div class="skigg-text">Enter data here</div>
+								<div class="skigg-text2">Enter data here</div>
 							</li>
 											</ul>
 					<ul>
@@ -210,20 +213,20 @@ img.emoji {
 			</div>
 		</div>
 
-		<div id="gigster-section8" class="gigster-section gigster-section8 trackable">
-			<div class="bg-graphic bg-graphic-br"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/s8_gB.svg" /></div>
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
+		<div id="skigg-section8" class="skigg-section skigg-section8 trackable">
+{#			<div class="bg-graphic bg-graphic-br"><img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/bzrfeed.svg" /></div>#}
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
 					<div class="content-container">
-												<h4><p>Working with gigster teams can help move your business forward.</p></h4>
+												<h4><p>Enter data here</p></h4>
 						<div class="from-to-container">
 							<ul>
 								<li>
-									<h5>From</h5>
-									<ul><li>Can’t find the right teams</li><li>Driven by release</li><li>Guesswork</li><li>Slowed by outdated resources</li></ul>								</li>
+									<h5>Data</h5>
+									<ul><li>Data</li><li>Data</li><li>Data</li><li>Data</li></ul>								</li>
 								<li>
-									<h5>To</h5>
-									<ul><li>Unlimited team capacity</li><li>Driven by experimentation</li><li>Data-driven results</li><li>New process and tools</li></ul>								</li>
+									<h5>Data</h5>
+									<ul><li>Data</li><li>Data</li><li>Data</li><li>Data</li></ul>								</li>
 							</ul>
 						</div>
 					</div>
@@ -231,23 +234,23 @@ img.emoji {
 			</div>
 		</div>
 
-		<div id="gigster-section9" class="gigster-section gigster-section9 trackable">
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
+		<div id="skigg-section9" class="skigg-section skigg-section9 trackable">
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
 					<div class="content-container">
 												<ul>
 							<li>
-								<div class="gigster-text"><p>It’s easy to <br />get started.</p></div>
+								<div class="skigg-text"><p>Data <br />Data</p></div>
 							</li>
 							<li>
-								<div class="gigster-text">Step 1</div>
-								<div class="gigster-text2"><p>Tell us about your <br />project.</p></div>
-								<div class="gigster-text">Step 2</div>
-								<div class="gigster-text2"><p>Let’s figure out what<br />to build.</p></div>
-								<div class="gigster-text">Step 3</div>
-								<div class="gigster-text2"><p>We’ll put together<br />your team.</p></div>
-								<div class="gigster-text">Step 4</div>
-								<div class="gigster-text2"><p>Blow your customers<br />away.</p></div>
+								<div class="skigg-text">Step 1</div>
+								<div class="skigg-text2"><p>Tell us about you.</p></div>
+								<div class="skigg-text">Step 2</div>
+								<div class="skigg-text2"><p>Let’s find something for you.</p></div>
+								<div class="skigg-text">Step 3</div>
+								<div class="skigg-text2"><p>We’ll help you to find work.</p></div>
+{#								<div class="skigg-text">Step 4</div>#}
+{#								<div class="skigg-text2"><p>Blow your customers<br />away.</p></div>#}
 							</li>
 						</ul>
 					</div>
@@ -255,34 +258,35 @@ img.emoji {
 			</div>
 		</div>
 
-<!--		<div class="gigster-section gigster-section10">-->
+<!--		<div class="skigg-section skigg-section10">-->
 <!--		</div>-->
 
-		<div class="gigster-section gigster-section11">
+		<div class="skigg-section skigg-section11">
 			<div class="bg-graphic"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/team_single.svg" /></div>
-			<div class="gigster-table">
-				<div class="gigster-table-cell">
-                    <div class="gigster-footer">
+			<div class="skigg-table">
+				<div class="skigg-table-cell">
+                    <div class="skigg-footer">
                         <ul>
                             <li>
-                                <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>
+{#                                <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>#}
+                                <img src='{% static 'images/SkiggLogo.jpeg'  %}' width="20%" height="20%" padding-left >
                             </li>
                             <li>
-                                <ul class="gigster-footer-social-list menu">
-                                    <ul id="page-footer-wp-menu" class="menu"><li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="https://gigster.com/" aria-current="page">Home</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://gigster.com/about/">About</a></li>
-<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://gigster.com/talent/">Talent</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://gigster.com/blog/">Blog</a></li>
+                                <ul class="skigg-footer-social-list menu">
+                                    <ul id="page-footer-wp-menu" class="menu"><li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="/" aria-current="page">Home</a></li>
+{#<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://gigster.com/about/">About</a></li>#}
+<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="#">Talent</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="#">Local</a></li>
 </ul>                                </ul>
                             </li>
                             <li>
-                                                                    <div class="gigster-footer-contact-info">
-                                        301 Howard Street<br />
-Suite 2100<br />
-San Francisco, CA 94105<br />
-USA<br />
-+1-833-GIGSTER<br />
-<a href="mailto:info@gigster.com">info@gigster.com</a>                                    </div>
+{#                                                                    <div class="gigster-footer-contact-info">#}
+{#                                        301 Howard Street<br />#}
+{#Suite 2100<br />#}
+{#San Francisco, CA 94105<br />#}
+{#USA<br />#}
+{#+1-833-GIGSTER<br />#}
+{#<a href="mailto:info@gigster.com">info@gigster.com</a>                                    </div>#}
                                                             </li>
                             <li>
                                 <a class="form-btn" href="/contact-us/" title="contact us">contact us<span class="dashicons dashicons-arrow-right-alt2"></span></a>
@@ -295,12 +299,12 @@ USA<br />
 
         <nav>
             <ul class="navi-section-list">
-                <li><a href="#gigster-section1" class="active"></a></li>
-                <li><a href="#gigster-section2-wrapper"></a></li>
-                <li><a href="#gigster-section3"></a></li>
-                <li><a href="#gigster-section5"></a></li>
-                <li><a href="#gigster-section8"></a></li>
-                <li><a href="#gigster-section9"></a></li>
+                <li><a href="#skigg-section1" class="active"></a></li>
+                <li><a href="#skigg-section2-wrapper"></a></li>
+                <li><a href="#skigg-section3"></a></li>
+                <li><a href="#skigg-section5"></a></li>
+                <li><a href="#skigg-section8"></a></li>
+                <li><a href="#skigg-section9"></a></li>
             </ul>
         </nav>
 	</div>
@@ -315,75 +319,79 @@ USA<br />
 		<a href="#" class="close-theme-modal"><img src="https://gigster.com/wp-content/themes/gigster/assets/images/form_close.svg"></a>
         <div class="desktop">
     <div class="popup-menu-body">
-        <div class="gigster-table">
-            <div class="gigster-table-cell">
-                <div class="gigster-popupmenu-wrapper">
-                    <ul id="menu-top-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="https://gigster.com/" aria-current="page">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://gigster.com/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://gigster.com/talent/">Talent</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://gigster.com/blog/">Blog</a></li>
+        <div class="skigg-table">
+            <div class="skigg-table-cell">
+                <div class="skigg-popupmenu-wrapper">
+                    <ul id="menu-top-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="#">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="#">Talent</a></li>
+{#<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://gigster.com/blog/">Blog</a></li>#}
 </ul>                </div>
             </div>
         </div>
     </div>
-    <div class="gigster-footer">
+    <div class="skigg-footer">
         <ul>
             <li>
-                <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>
+{#                <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>#}
+                <img src='{% static 'images/SkiggLogo.jpeg'  %}' width="20%" height="20%" padding-left >
             </li>
-            <li>
-                <ul class="gigster-footer-social-list">
-                                            <li><a target="_blank" href="https://twitter.com/trygigster">Twitter<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg"/></a></li>
-                                                                                    <li><a target="_blank" href="https://www.linkedin.com/company/gigster">LinkedIn<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg"/></a></li>
-                                                        </ul>
-            </li>
-            <li>
-                                    <div class="gigster-footer-contact-info">
-                        301 Howard Street<br />
-Suite 2100<br />
-San Francisco, CA 94105<br />
-USA<br />
-+1-833-GIGSTER<br />
-<a href="mailto:info@gigster.com">info@gigster.com</a>                    </div>
-                            </li>
+{#            <li>#}
+{#                                    <div class="gigster-footer-contact-info">#}
+{#                        301 Howard Street<br />#}
+{#Suite 2100<br />#}
+{#San Francisco, CA 94105<br />#}
+{#USA<br />#}
+{#+1-833-GIGSTER<br />#}
+{#<a href="mailto:info@gigster.com">info@gigster.com</a>                    </div>#}
+{#                            </li>#}
             <li>
                 <a class="form-btn" href="/contact-us/" title="contact us">contact us<span class="dashicons dashicons-arrow-right-alt2"></span></a>
+            </li>
+            <li>
+                <ul class="skigg-footer-social-list">
+                    <li><a target="_blank" href="#">Twitter<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///+cnJxzc3P4+PhXV1fu7u709PShoaFsbGyQkJDLy8stLS3S0tLX19f7+/u2tra8vLzo6Oivr689PT0cHBze3t6Hh4dnZ2cPDw9SUlLGxsYVFRUyMjJ/f3+oqKgmJiZEREReXl5LS0uWlpY4ODiLi4sbGxufyMhAAAAMRUlEQVR4nOWd6XqqSBCGQVY3RCAqahSjJ3P/dzi4svVS1V0NzJzvZ55EeQN0V9dq2ablBtH6HM4cL1sUX8fcyo9fxSLznFl4XkeBa/z7LYOf7W/i7S6zxMp223jjG7wKU4RROr3kErhK+WWaRoauxARhFO7hcDXMfWiCkprQjx0FuEpOTP3EkhImZ08L7ynvnFBeFB1hkO4J8J7apwHZdVERLqdkeE9Nl0RXRkLoT76J+e76npC8kgSEm5MBvKdOmxEQLikWF7487YdVk3AuM1n0lc0HJJybvX9veVqMGoRRP3wPRg1jR5kw0LNdsHKUN0hFwtWkV767Jqs+CQ+L3gEta3HojdDt9wGt5KiclxUI1wPx3bXugdDfDQhoWTu0JYclPBwHBbSsI/ZtRBKaM0HhOhkk3AyxhHa1QNnjGMIhl5imMAsOgnA2NFdNMwOELp2PgkJ78NYIJUyKoZlaKqDuKiDhUsUBalY58GwMIxzPGlMXbL0BEYZDs3AUUhH2f1KCakJDOKZdoi3AriEnHIOhxpfchJMSjhsQgCgjHPMj+pTsQZUQjneRqSRZbsSEY90mmhJvGkLCcW70XQm3fhHhcugrB0tkwAkIk/HZojzlAjOcT+gWQ183QgX/MMUnHNd5UKY9nnD8G2FT3G2RR/hfWUYr8RZUDuFm6OtVEMcDxyEch9sQpwWGcBhz2/u9TcLJbXb6o/b3bCOcSXigvXKALpPmpu2vnS/8pzAd/ixCv+fYxPXMDLdEJylk60KPrM9hEfYbXZryY/RBLFwPsnnb6trBCHvdKHYSt2fM/cs8tuedHzK2jC6haxKoJUjgesv8y+J+ZGI8bF3rrUvIDWHTJwedQMkHUTdpbv+4VwnjIx05IX8dJc8vgUaQVq175bzeXOae1nkq2oQr7rv9a9tXSr4vRBSw5kzZff4vrFtYPvjt56JNyHfMlCtxoLgVs/QHFZBPH3/zvVvX3jPOkt9227QIA+4VbR//NrKdcoFMHEm/nTRp3J7uQvpSK3uqRch/1Z7PPvvJwCtHp1R0FiWuB6K12DQJI/4lvX6D6NChnxkrMEuaJkSTkJ9teHv/Col7SiHxp6Wz4NM9PiH30a7/0wkQkfkiDInPBo181AahIGG09hpoP6hHbUDJJTRuYp1QcAsbf5P8o0eomdbcWC6Ov6wXsv4NdUKBWbZtfEOitS9OdQGrO7FPXebimLEJRS9Y3PwOrdQT3XX0vchcw/Jc4rI3jdp5ukYoStvunOHUbVTdW/j45sJ51Q39sL+k9lZVhMK3t/t/Vw5L6d3Cw+L7Z3v4HCq5V1F9S0Uo9D4xzqmKKTZZ95MQcqPGlfA3jWpD+hD6wutincQDpaNGqkXYlOix+5iFH0JhtJfp4rHtmwIhYWmz0Ej+HDE+hOLqM443hXH8lshjf5CKxGe57zahxBbj+YtWbC8KXzfOB+G1kuxY7w3jTSgpkOQvgMsCRUhWy7ySuY3eu9KLkH/yfUoURka9jVR1zL7crAoahKnkt4XpDgnchZwplvYoAL5X7RehzAqTnHfmUEP1hwYwgQQ19nVCqXNCuk+vYYEU/ZPhXcDIUVIjFJ2Yn5JvY2fIzvFLAQgNwJ9rhPJaSYDfYRXLGSEJoRK5HGO7K68iFFtsD8FOBAeZIXfWJ0QEF/wPIT/AUwn4/clJ6FIF5S2LhQjAxx9CyGEPXFAVrAWPEaIShCeEf8H5EEJ+m5+S05V/vnA+hWAtxYTA3oR8P3BduNL/IGXeyW7wCy3eP4+l6EUIO66zIshCrQ6zffulJDhaYO5h+CIEupVUjGZ/OXHql1Tod2XBpPrsX4RAd4Sy/yGI0tubU7+5ToEgzJ+EsNfQ0t+ug82coEcSKs8mehDKzhWVSLsbKYrjIOUofRDCuwNdhsazQfZXTdMHIWL51XbI6wsXo73cCX3MbSewnDWFi3zlfkmI+xMC01lPyPDlpiSEmN1e9NkzCWxnLSHzJuOSEOIPLHfO6O2MofMHKgnphd6WhBA30vX+2eWh4bEX/ZjvyCkQsi/criSE2Hl/Xi6yYHM+/Sy+qZrFqQjZuimzLVAqYjP9xaVr+YeWi40juJbMF/wUQWc4GqFTlgILZpWqNTAyIHQiSGTBMoJJvIAUQicwry25q/QuwqCYnrCxrpIPGI8fdIeoCR13Di2gA1k/E41E+CT0mQVMGxnBqeIuQdoWR44F3UHH8Zjia8s9cAb+8Oemu/C5WJkFdV0VQ8M9hAYs+Qror1ImwqgK7DSrVFhg15WgmLg3KbR4+GqXfwk08MHwLoWynaOF8NIM7kxUyU5GOR8vQxOq5UNiGLfyizAqlbzdHPEeWkPbbkrlLEf4WvrQkP4LQMYIQ1/w/fCpIQ/7SvmsBdimecvUsBS51GquFvjK0MEcGr9KhBn4bFFpIBt8pQRY8imUFeC7FVMIHuZsyIGe8RvKY/kFkQuTg1HTDOqnaWnf+4KjWjIXAn1tXf30vDWqzrE5A/2lLF3THt9H5fLcNdDnzZE3mfd0akT7Sd+KgHGLmq6VaXF0wp6eVVx+Ql0BLPZU1z3PKEg2Sa8BKPVSORcWP2xoANNUvTA3A8aAG6LJRkdJvWPODhjHb4qoZgIujfLxLTAXo6neDVONjiMxOp/moZ7tUp3GXBtsTtRTBJm+GBXqgI+cKBWTVruiHiPlzd565bWpWHyc9nZGpNWlYorML63U43Oq1Z4qxeUI19XbeqpSa1wpQuV5N9WT61Svzcgrz1ux22w/Z2C9FmrvXH3F9gh9LKh6z+in3kL1iGg+ZqrbhPNdM6MQO37KdERRu++WbSNq15j6MWu/6XbCrWrX8Mb3RybzvrWHKFf1h+o+gvKIaexArD+XoaohxSbeNrUzs6jqt/qt1QGrReYqZTG9x42gu1+9llv/464hrQUQEHRorNfj0zTR359uYUqTsBEQNBRv9FRQDex0dSJ5Xl2KTqnNvhhovzBbOVH4lKQVbLO3if7ecxdRrcmKBLDVn4ai32NBFFVU67DVUbvHkKRPFEC/RDuGT9NzutMnSteCuFCZNlSNfLu9vnQsN+tKFoIim0/U7demMfHBozPb6Hatz0cC+yYK5BCGEHVco02x+iYqmd/FmTCMSDiultn7Ev8K/PkljQDPCcdqsPuX4vxa3oT4YKjpdGqI04MWXJCSO2FEHeNOSHv28/oIs97EbJd9HR8u4/z4tbiezuuliewL2jGE3F7QzJv4OCy4vm8yqyRSzOjiid/Pm72cmq7Ad9XSKvkS9GTn+IYXRr3bKfkQQlFffZ7nlM4qa2tOPx1MOBuBfxL2jARi5iZGEIrnWwiOGPTJiNIOfUqSzCgRzJkpdw7SmGFMONKlJumcGYkjdkYUqEgoLZiGpLOCpGGa6UF7ZwxicPtKtADznuTl0v84Wh61g2NycB1kZheobYGjdieD2PDUOtDcNWgm4HW2RL2U/uHXyNpZF3B2Hnz+Ye5t1xHgZvrL9GSczkLMP8QFtvI/Trrm3c7kEN9+ehtqCp5hqeiVynbOdnabhGE4ud1m291FYc6mlhBzSP+CWbJ/wTzg//9M579gLvdfMFvddouhrxohQUsLQSfyhNy9YEy5IHtA1GudLA5kXKLDubCb/H9lQRWezMX98mkdtaYkdndKJgLo55aZlyTlXDbzYPzbomwYgXSqg3pouB9JK+nkcyvGjSgvFQRM5hjzgwqYlwGZPTLe5QZS1wKarjLWTQMUFYPNjxnn1g9zwQMn5CgOrDSpHBhHAc8AKoYmaqmApupCCSmTXSi0B3ukwYTj2jUQU5UQhCNabzBhPgyhvRmHk3GBylVCEY7DhEP2dEAS2geToTGIjtjQHpbQ9g3HxyTCd+FCEw674ChkEigQ2q56txg9OSphWRXC+4TzAfgWasF1NUJ71f+JaqLYNEaR0LaDfh9VRzmhVZnQtiOtukyUdHLONAhte94Po161gxZhyUhTwiNSppn7qUlYno3N3kdPO19Qm7C0x80ZqyeCegACwtKSm2hXvjH0PSFJEyQhLLUkKdGsaUqVzkpFeJ+PS+fn2Kd09Rx0hKWSM8Wy451JG/iTEpbyYz1bxyGYxdoUNeFdUbhXca/me+KuBU+ZILwrSqcXOGZ+maamujKZIrzL38TbnczoyXbbeGOyzY1JwqfcIFqfw5njZYviXiSWH7+KReY5s/C8jgLzTXr/BQiisjKi7Xh+AAAAAElFTkSuQmCC"/></a></li>
+                    <li><a target="_blank" href="#">LinkedIn<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///9MTEz8/PyTk5PNzc339/c4ODjo6OhPT0+MjIzu7u6xsbERERGnp6fy8vIiIiLe3t6fn58+Pj5GRkaBgYF6enpfX1/R0dG6urqPj4/X19eZmZlmZmZZWVlkZGQuLi4xMTEZGRlycnK3t7fExMQnJycdHR0+1Fr0AAAFB0lEQVR4nO2daXeqMBCGQW8RcEG02kXa2lbo//+H17WKLJPKjFnO+3wup/Mck5BkksHzrwhHcTQdezYynkbxKLwW8sp62UB3mJ0ZZGGjYRDrjo6JOKg3nOgOjJFJjWES6Y6KlSi5NkwL3TExU6RlwwfdAQnwcGmY6o5GhPRsmLjWRA8Uya+hW4PMmehk6NJroszkYBjojkOQYG/oykymjnhnGOqOQpRwa5jpDkKUbGto/2qijYHvud1It83UG+kOQZiR5/JIuiP2XJ3PnIi8qe4QhJl6dm46qeO6HwAAACBB722ZbWaLt3fdgcjwcZG6GuZL3eGwsxxeJeb6bu0OPFUyjy6l47bMavycynfkDYK+H651x8ZCXQv9xYWdrOZfcD+q6g6vO0198MSz7gC78kQI+v5Md4gdae2EB+xOPy5pQf9Fd5CduJ7J1PKpO8oOfKgIWt0TR0qGNic/FMaZHXPdcd5MT03QX+gO9GbeFA3tPeyg8q7YkesO9GYyRUN7D1VtnDekZt32Gy4UDe3th+6Ppe+Khq+6A70dpYm371u8Q9y+g3Ei0R1mB9Re+VYfyuk73kjVZjUr3UF2I6ANe7pj7EZMCtr7uj/yQAgOv3RH2Blinf+oO77urFsFv3WHx8GgZWbjhOCW56Y+6EATPVK/UMztH2TOFC8Vv5Xl78EKn7PLQTUZWT1Va2K+mORpmuaTVyf1AAAAAAAAAACA+zL+Wc/n6+JHdxwyPC436anGU/j8Ejt2E3s+q+6vDx8Wwnd5e36/Hf9f/YMB9dz1ZY1lWtE70M+fZA0pGgzJ3GrZcNF6ZCAUvGZ1H8PKraqqo9j5x3sY/lAZvD0roVOsdzCkk7BHZA4myRtW8wWNpBJn5qUN100jaC2BQDZP2PBR4SRECf47j7KGc6XzOiXYO6Oo4effBflPYEka/iTU39TC/CtKGiq9Bmvg7YtyhvnrjYLM5yPkDIe3dMIDAed7Uc6wC5xH58005BxtDDVkvENuqiHfoVZTDX22NbGxhmzXOo01ZPsRzTXk+hHNNfSZduAMNmQ6YH43w2G6SsO/PWSTYf5d7He2p++bPyz6eTYY72DYL1cs+Fa8TsbVTOUNN5UqsZniszw3ysQN65papLj4ZznmKmzYrw/yS62YA8tiX9iwMT+o1Bk35hs2j4aPKs+zLDBEDdtq96jcI2eZuEka9ltT9Qrb/QFHASdJw/bKiyqFVThW+oKGAXHlZkUbcqQUBQ2pKYlCXpHj3pWgIbWELWhDjotJgobkKRK6mRpuSP7vpkuBthjSNSXp/LfZhnRJSboYgNmGdAHbfzCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEoYBhRP6Xhpug5HP0NWX6VhBHqehx1GsnWtc/SDzWi+j7n2vyfwuXiQYAAAAAAPfC9Ynd2KtUEnOMqefYl2oqRB5/IX6ziD3uIvWmMfLYatUaSugxVo02kYHvEfW2bCfbGrrdTMOtocBnTcwh9neGge4wBAn2hkJfUTKBiX8wZNlWNZH9ZvbeMOGor2geRfJryPo9DHM41M48ZhfoJIl9HD/Tc8qfpK411OJU/fQ3Q5S4Ndyci0lf5MBcemlMzlqXWb7AldlNfFm4vpzHDDP7VxqDrFwKvJKpDUdxNLVze2o8jeJRpdL5f2YjU4xtkVEnAAAAAElFTkSuQmCC"/></a></li>
+                    <li><a target="_blank" href="#">Instagram<img src="data:image/png;base64,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"/></a></li>
+
+                </ul>
             </li>
         </ul>
     </div>
 </div>
 <div class="mobile">
     <div class="popup-menu-body">
-        <div class="gigster-table">
-            <div class="gigster-table-cell">
-                <div class="gigster-footer">
+        <div class="skigg-table">
+            <div class="skigg-table-cell">
+                <div class="skigg-footer">
                     <ul>
                         <li>
-                            <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>
+{#                            <img class="footer-logo" src="https://gigster.com/wp-content/themes/gigster/assets/images/gigster_logo.svg"/>#}
+                            <img src='{% static 'images/SkiggLogo.jpeg'  %}' width="20%" height="20%" padding-left >
                         </li>
                         <li>
-                            <ul class="gigster-footer-social-list menu">
-                                <ul id="page-footer-wp-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="https://gigster.com/" aria-current="page">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://gigster.com/about/">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://gigster.com/talent/">Talent</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://gigster.com/blog/">Blog</a></li>
+                            <ul class="skigg-footer-social-list menu">
+                                <ul id="page-footer-wp-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-57"><a href="/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="#">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="#">Talent</a></li>
+{#<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://gigster.com/blog/">Blog</a></li>#}
 </ul>                            </ul>
                         </li>
-                        <li>
-                            <ul class="gigster-footer-social-list">
-                                                                    <li><a target="_blank" href="https://twitter.com/trygigster">Twitter<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg" /></a></li>
-                                                                                                                                    <li><a target="_blank" href="https://www.linkedin.com/company/gigster">LinkedIn<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg" /></a></li>
-                                                                                            </ul>
-                        </li>
-                        <li>
-                                                            <div class="gigster-footer-contact-info">
-                                    301 Howard Street<br />
-Suite 2100<br />
-San Francisco, CA 94105<br />
-USA<br />
-+1-833-GIGSTER<br />
-<a href="mailto:info@gigster.com">info@gigster.com</a>                                </div>
-                                                    </li>
+{#                        <li>#}
+{#                            <ul class="gigster-footer-social-list">#}
+{#                                                                    <li><a target="_blank" href="https://twitter.com/trygigster">Twitter<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg" /></a></li>#}
+{#                                                                                                                                    <li><a target="_blank" href="https://www.linkedin.com/company/gigster">LinkedIn<img src="https://gigster.com/wp-content/themes/gigster/assets/images/social-arrow.svg" /></a></li>#}
+{#                                                                                            </ul>#}
+{#                        </li>#}
+{#                        <li>#}
+{#                                                            <div class="gigster-footer-contact-info">#}
+{#                                    301 Howard Street<br />#}
+{#Suite 2100<br />#}
+{#San Francisco, CA 94105<br />#}
+{#USA<br />#}
+{#+1-833-GIGSTER<br />#}
+{#<a href="mailto:info@gigster.com">info@gigster.com</a>                                </div>#}
+{#                                                    </li>#}
                         <li>
                             <a class="form-btn" href="/contact-us/" title="contact us">contact us<span class="dashicons dashicons-arrow-right-alt2"></span></a>
                         </li>
@@ -395,30 +403,30 @@ USA<br />
 </div>	</div>
 
 			</div>		</div>	</div>
-<link rel='stylesheet' id='gsb-form-css-css'  href='https://gigster.com/wp-content/plugins/gsb-form/src/GSBForm/assets/css/main/style.min.css?ver=0.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='gsb-form-css-css'  href='{% static 'css/style.min.css' %}' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var cnArgs = {"ajaxurl":"https://gigster.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"0"};
+{#var cnArgs = {"ajaxurl":"https://gigster.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"0"};#}
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://gigster.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.46'></script>
-<script type='text/javascript' src='https://gigster.com/wp-content/themes/gigster/assets/js/typed.min.js?ver=2.0.11'></script>
-<script type='text/javascript' src='https://gigster.com/wp-content/themes/gigster/assets/js/jquery.sticky-nav.js?ver=1.1.0'></script>
+<script type='text/javascript' src='{% static 'js/front.min.js' %}'></script>
+<script type='text/javascript' src='{% static 'js/typed.min.js' %}></script>
+<script type='text/javascript' src='{% static 'js/jquery.sticky-nav.js' %}'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var js = {"words_animation":["dynamic","global","relentless","proven","waiting","ready"]};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://gigster.com/wp-content/themes/gigster/assets/js/theme-functions.js?ver=5.3'></script>
-<script type='text/javascript' src='https://gigster.com/wp-includes/js/wp-embed.min.js?ver=5.3'></script>
-<script type='text/javascript' src='https://gigster.com/wp-content/plugins/gsb-form/src/GSBForm/assets/js/store2.min.js?ver=2.9.0'></script>
-<script type='text/javascript' src='https://gigster.com/wp-content/plugins/gsb-form/src/GSBForm/assets/js/js-url.min.js?ver=2.5.3'></script>
+<script type='text/javascript' src='{% static 'js/theme-functions.js' %}'></script>
+<script type='text/javascript' src='{% static 'js/wp-embeded.min.js' %}'></script>
+<script type='text/javascript' src='{% static 'js/store2.min.js' %}'></script>
+<script type='text/javascript' src='{% static 'js/js-url.min.js' %}'></script>
+<script type='text/javascript' src='{% static 'js/main.js' %}'></script>
+    /* ]]> */
 <script type='text/javascript'>
-/* <![CDATA[ */
-var js = {"form_payload":"{\"debug\":true,\"blackList\":[\"gmail.com\",\"yahoo.com\",\"hotmail.com\",\"zoho.com\",\"aol.com\",\"sbcglobal.net\",\"icloud.com\",\"msn.com\",\"outlook.com\",\"att.com\",\"(edu\\\\.)\"],\"steps\":[{\"stepPrimaryLabel\":\"01\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Name\",\"question\":\"Can we get your first name?\",\"field\":\"firstName\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"02\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Company\",\"question\":\"Who do you work for, {firstName}?\",\"field\":\"company\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"03\",\"stepSecondaryLabel\":\"Title\",\"question\":\"What's your job title at {company}?\",\"field\":\"title\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"04\",\"stepSecondaryLabel\":\"Email\",\"question\":\"What's your email address at {company}?\",\"field\":\"email\",\"field_type\":\"email\",\"required\":true,\"useBlackList\":true,\"invalidError\":\"Oops, this needs to be valid work email.\"},{\"stepPrimaryLabel\":\"05\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Phone\",\"question\":\"What\\u2019s the best phone number to reach you?\",\"field\":\"phone\",\"field_type\":\"number-phone\",\"required\":true,\"invalidError\":\"Please provide a valid phone number with country code.\"},{\"stepPrimaryLabel\":\"011\",\"parent_step\":\"1\",\"stepSecondaryLabel\":\"-\",\"question\":\"Hi {firstName}. What's your last name?\",\"field\":\"lastName\",\"field_type\":\"text\",\"required\":true}],\"tmpl_path\":\"http:\\\/\\\/gigsterproduction.kinsta.cloud\\\/wp-content\\\/themes\\\/gigster\",\"numverify_apikey\":\"\"}","container":"custom-from-container","submit_track_event":"Gigster Form"};
-/* ]]> */
+    /* <![CDATA[ */
+    {#var js = {"form_payload":"{\"debug\":true,\"blackList\":[\"gmail.com\",\"yahoo.com\",\"hotmail.com\",\"zoho.com\",\"aol.com\",\"sbcglobal.net\",\"icloud.com\",\"msn.com\",\"outlook.com\",\"att.com\",\"(edu\\\\.)\"],\"steps\":[{\"stepPrimaryLabel\":\"01\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Name\",\"question\":\"Can we get your first name?\",\"field\":\"firstName\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"02\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Company\",\"question\":\"Who do you work for, {firstName}?\",\"field\":\"company\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"03\",\"stepSecondaryLabel\":\"Title\",\"question\":\"What's your job title at {company}?\",\"field\":\"title\",\"field_type\":\"text\",\"required\":true},{\"stepPrimaryLabel\":\"04\",\"stepSecondaryLabel\":\"Email\",\"question\":\"What's your email address at {company}?\",\"field\":\"email\",\"field_type\":\"email\",\"required\":true,\"useBlackList\":true,\"invalidError\":\"Oops, this needs to be valid work email.\"},{\"stepPrimaryLabel\":\"05\",\"parent_step\":\"\",\"stepSecondaryLabel\":\"Phone\",\"question\":\"What\\u2019s the best phone number to reach you?\",\"field\":\"phone\",\"field_type\":\"number-phone\",\"required\":true,\"invalidError\":\"Please provide a valid phone number with country code.\"},{\"stepPrimaryLabel\":\"011\",\"parent_step\":\"1\",\"stepSecondaryLabel\":\"-\",\"question\":\"Hi {firstName}. What's your last name?\",\"field\":\"lastName\",\"field_type\":\"text\",\"required\":true}],\"tmpl_path\":\"http:\\\/\\\/gigsterproduction.kinsta.cloud\\\/wp-content\\\/themes\\\/gigster\",\"numverify_apikey\":\"\"}","container":"custom-from-container","submit_track_event":"Gigster Form"};#}
 </script>
-<script type='text/javascript' src='https://gigster.com/wp-content/plugins/gsb-form/src/GSBForm/assets/js/main.js?ver=0.6.2'></script>
 
 			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">Our site uses cookies. By agreeing to use our site, you are agreeing to our <a href="privacy" target="_blank">privacy policy</a>.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap cookie-accept-btn">accept and close</a>
 				</div>

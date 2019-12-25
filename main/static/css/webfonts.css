@@ -1,0 +1,91 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3804152, 2019-09-04T18:13:34-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Futura-Boo by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-book/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ *
+ * Webfont: Futura-Lig by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-light/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ *
+ * Webfont: Futura-Med by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-medium/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-Dem by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-demi/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-Bol by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-bold/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-LigObl by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-light-oblique/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-BooObl by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-book-oblique/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-DemObl by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-demi-oblique/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-BolObl by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-bold-oblique/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ * Webfont: Futura-MedObl by URW
+ * URL: https://www.myfonts.com/fonts/urw/futura/t-medium-oblique/
+ * Copyright: Copyright 2010 by (URW)++ Design &amp; Development GmbH
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3804152
+ * Licensed pageviews: 10,000
+ *
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3a0bf8");
+
+
+@font-face {font-family: 'Futura-Boo';src: url('../webfonts/3A0BF8_0_0.eot');src: url('../webfonts/3A0BF8_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_0_0.woff2') format('woff2'),url('../webfonts/3A0BF8_0_0.woff') format('woff'),url('../webfonts/3A0BF8_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-Lig';src: url('../webfonts/3A0BF8_1_0.eot');src: url('../webfonts/3A0BF8_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_1_0.woff2') format('woff2'),url('../webfonts/3A0BF8_1_0.woff') format('woff'),url('../webfonts/3A0BF8_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-Med';src: url('../webfonts/3A0BF8_2_0.eot');src: url('../webfonts/3A0BF8_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_2_0.woff2') format('woff2'),url('../webfonts/3A0BF8_2_0.woff') format('woff'),url('../webfonts/3A0BF8_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-Dem';src: url('../webfonts/3A0BF8_3_0.eot');src: url('../webfonts/3A0BF8_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_3_0.woff2') format('woff2'),url('../webfonts/3A0BF8_3_0.woff') format('woff'),url('../webfonts/3A0BF8_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-Bol';src: url('../webfonts/3A0BF8_4_0.eot');src: url('../webfonts/3A0BF8_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_4_0.woff2') format('woff2'),url('../webfonts/3A0BF8_4_0.woff') format('woff'),url('../webfonts/3A0BF8_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-LigObl';src: url('../webfonts/3A0BF8_5_0.eot');src: url('../webfonts/3A0BF8_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_5_0.woff2') format('woff2'),url('../webfonts/3A0BF8_5_0.woff') format('woff'),url('../webfonts/3A0BF8_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-BooObl';src: url('../webfonts/3A0BF8_6_0.eot');src: url('../webfonts/3A0BF8_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_6_0.woff2') format('woff2'),url('../webfonts/3A0BF8_6_0.woff') format('woff'),url('../webfonts/3A0BF8_6_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-DemObl';src: url('../webfonts/3A0BF8_7_0.eot');src: url('../webfonts/3A0BF8_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_7_0.woff2') format('woff2'),url('../webfonts/3A0BF8_7_0.woff') format('woff'),url('../webfonts/3A0BF8_7_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-BolObl';src: url('../webfonts/3A0BF8_8_0.eot');src: url('../webfonts/3A0BF8_8_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_8_0.woff2') format('woff2'),url('../webfonts/3A0BF8_8_0.woff') format('woff'),url('../webfonts/3A0BF8_8_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Futura-MedObl';src: url('../webfonts/3A0BF8_9_0.eot');src: url('../webfonts/3A0BF8_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A0BF8_9_0.woff2') format('woff2'),url('../webfonts/3A0BF8_9_0.woff') format('woff'),url('../webfonts/3A0BF8_9_0.ttf') format('truetype');}
+ 

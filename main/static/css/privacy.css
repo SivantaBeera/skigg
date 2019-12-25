@@ -1,0 +1,38 @@
+.page-privacy-body{
+    color: #002EFF;
+    font-size: 28px;
+}
+
+.page-privacy-body .skigg-text > p{
+    margin-bottom: 30px;
+}
+
+.page-privacy-body .skigg-text > ol{
+    margin: 30px;
+}
+
+.page-privacy-body .skigg-text > ol > li{
+    list-style-type: decimal;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.page-privacy-body .skigg-table-cell{
+    text-align: left;
+}
+
+.page-privacy-body .logo {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .page-privacy-body{
+        font-size: 4.5vw;
+    }
+
+    .page-privacy-body .skigg-section1{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

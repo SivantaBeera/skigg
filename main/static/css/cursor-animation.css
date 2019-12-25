@@ -1,0 +1,44 @@
+@keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #00ffff;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #00ffff;
+	}
+}
+
+@-webkit-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #00ffff;
+	}
+}
+
+@-ms-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #00ffff;
+	}
+}
+
+@-o-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #00ffff;
+	}
+}

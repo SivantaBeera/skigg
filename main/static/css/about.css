@@ -1,0 +1,448 @@
+.page-about-body {
+    background: #007ff5;
+    color: #FFF;
+}
+
+.page-about-body .skigg-text {
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.page-about-body .skigg-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-about-body .skigg-header.fixed {
+    background: #007ff5;
+}
+
+.page-about-body .skigg-section1 {
+    padding: 200px 40px 100px 40px;
+    z-index: 2;
+}
+
+.page-about-body .skigg-section1 .skigg-text {
+    line-height: 1.3em;
+}
+
+.page-about-body .skigg-section1 .skigg-text .skigg-title {
+    margin-bottom: 30px;
+}
+
+.page-about-body .skigg-section1 .bg-graphic {
+    margin-left: -160px;
+    margin-top: -15px;
+}
+
+.page-about-body .skigg-section2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.page-about-body .skigg-section2 .skigg-title {
+    margin-bottom: 100px;
+}
+
+.page-about-body .skigg-section2 ul.column-list4 > li > img,
+.page-about-body .skigg-section3 ul.column-list4 > li > img {
+    width: 145px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.page-about-body .skigg-section2 .leadership-name,
+ .page-about-body .skigg-section3 .leadership-name {
+     font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     margin-bottom: 25px;
+ }
+
+.page-about-body .skigg-section2 .leadership-title,
+.page-about-body .skigg-section3 .leadership-title {
+    margin-bottom: 25px;
+}
+
+.page-about-body .skigg-section2 .leadership-title,
+.page-about-body .skigg-section2 .leadership-view-bio,
+.page-about-body .skigg-section3 .leadership-title,
+.page-about-body .skigg-section3 .leadership-view-bio {
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-about-body .skigg-section2 .leadership-view-bio,
+.page-about-body .skigg-section3 .leadership-view-bio {
+    color: #FFF;
+}
+
+.page-about-body .skigg-section2 .leadership-view-bio img,
+.page-about-body .skigg-section3 .leadership-view-bio img {
+    width: 14px;
+    margin-left: 9px;
+    display: inline-block;
+}
+
+.page-about-body .skigg-section2 .bg-graphic {
+    width: 1000px;
+    margin-left: -110px;
+    z-index: -1;
+}
+
+.page-about-body .skigg-section3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.page-about-body .skigg-section3 .skigg-table-cell {
+    vertical-align: top;
+}
+
+.page-about-body .skigg-section3 .bg-graphic.bg-graphic-ml {
+    z-index: -1;
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 120px;
+}
+
+.page-about-body .skigg-section3 .bg-graphic.bg-graphic-tr {
+    z-index: 0;
+    top: 120px;
+    right: 0;
+    width: 140px;
+}
+
+.page-about-body .skigg-section4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-about-body .skigg-section4 .bg-graphic {
+    z-index: 0;
+    top: 60px;
+    left: 0;
+}
+
+.page-about-body .skigg-section5 {
+    padding-top: 100px;
+    background-image: url("../images/about/s5_gC.svg");
+    background-repeat: no-repeat;
+    background-size: auto 550px;
+    background-position: center;
+}
+
+.page-about-body .skigg-section5 .join-hq-number,
+.page-about-body .skigg-section5 .join-hq-view-role {
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.page-about-body .skigg-section5 .join-hq-view-role img {
+    width: 14px;
+    margin-left: 9px;
+    display: inline-block;
+}
+
+.page-about-body .skigg-section5 .join-hq-title {
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.page-about-body .skigg-title{
+    margin-bottom: 100px;
+}
+
+.page-about-body .skigg-section-footer {
+    background: #282a2c;
+    height: 375px;
+    color: #FFF;
+    padding: 40px;
+}
+
+.page-about-body .skigg-header .form-trigger-btn {
+    width: unset;
+}
+
+.page-about-body .skigg-section-footer .skigg-table-cell {
+    vertical-align: top;
+}
+
+.page-about-body .skigg-section-footer .skigg-footer {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    padding: 0;
+}
+
+.page-about-body .skigg-section-footer .skigg-footer > ul > li:last-child {
+    text-align: right;
+}
+
+.page-about-body .skigg-section-footer .skigg-section-footer .form-trigger-btn {
+    position: relative;
+    top: unset;
+    right: unset;
+    display: inline-block;
+}
+
+.page-about-body .column-list4,
+.page-about-body .column-list2 {
+    font-size: 0;
+}
+
+.page-about-body .column-list4 > li,
+.page-about-body .column-list2 > li {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.page-about-body .column-list4 > li:last-child,
+.page-about-body .column-list2 > li:last-child {
+    padding-right: 0;
+}
+
+.page-about-body .column-list4 > li {
+    width: 25%;
+}
+
+.page-about-body .column-list2 > li {
+    width: 50%;
+}
+
+.page-template-page-about .bio-modal{
+    background: #FFF;
+    padding: 40px 75px 40px 40px;
+}
+
+.page-template-page-about .bio-modal .skigg-table-cell{
+    width: 50%;
+    text-align: left;
+}
+
+.page-template-page-about .bio-modal .bio-linkedin img,
+.page-template-page-about .bio-modal .bio-linkedin img {
+    width: 14px;
+    margin-left: 9px;
+    display: inline-block;
+}
+
+.page-template-page-about .bio-modal .bio-name,
+.page-template-page-about .bio-modal .bio-title,
+.page-template-page-about .bio-modal .bio-description,
+.page-template-page-about .bio-modal .bio-linkedin{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    color: rgb(0,46,255);
+    margin-bottom: 25px;
+}
+
+.page-template-page-about .bio-modal .bio-name{
+    font-size: 50px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.page-template-page-about .bio-modal .bio-name:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #00ffff;
+    left: 0;
+}
+
+.page-template-page-about .bio-modal .bio-title {
+    font-size: 30px;
+}
+
+.page-template-page-about .bio-modal .bio-description{
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-template-page-about .bio-modal .bio-linkedin {
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.page-template-page-about .bio-modal .bio-photo-cell{
+    position: relative;
+}
+
+.page-template-page-about .bio-modal .bio-photo{
+    position: absolute;
+    left: -40px;
+    bottom: -40px;
+    width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .page-about-body .skigg-section1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page-about-body .skigg-text {
+        width: 78%;
+        font-size: 4.1vw;
+    }
+
+    .page-about-body .skigg-section2 .leadership-name,
+    .page-about-body .skigg-section3 .leadership-name {
+        font-size: 2.9vw;
+    }
+
+    .page-about-body .skigg-section2 .leadership-title,
+    .page-about-body .skigg-section2 .leadership-view-bio,
+    .page-about-body .skigg-section3 .leadership-title,
+    .page-about-body .skigg-section3 .leadership-view-bio {
+        font-size: 1.9vw;
+    }
+
+    .page-about-body .skigg-section2 ul.column-list4 > li > img,
+    .page-about-body .skigg-section3 ul.column-list4 > li > img {
+        width: 13.7vw;
+    }
+
+    .page-about-body .skigg-section5 .join-hq-number,
+    .page-about-body .skigg-section5 .join-hq-view-role {
+        font-size: 1.9vw;
+    }
+
+    .page-about-body .skigg-section5 .join-hq-title {
+        font-size: 2.9vw;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .page-about-body .skigg-section {
+        position: relative;
+        padding: 100px 0;
+    }
+
+    .page-about-body .skigg-section1 {
+        padding: 100px 0;
+    }
+
+    .page-about-body .skigg-section1 .skigg-text,
+    .page-about-body .skigg-title{
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .page-about-body .skigg-section1 .bg-graphic{
+        margin-left: 0;
+        z-index: -1;
+        left: 0;
+    }
+
+    .page-about-body .skigg-section2 {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    .page-about-body .skigg-section2 .bg-graphic{
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    .page-about-body .skigg-text {
+        width: 85%;
+    }
+
+    .page-about-body .column-list4 > li{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .page-about-body .skigg-section2 ul.column-list4 > li > img,
+    .page-about-body .skigg-section3 ul.column-list4 > li > img{
+        width: 26vw;
+    }
+
+    .page-about-body .skigg-section2 .leadership-name,
+    .page-about-body .skigg-section3 .leadership-name,
+    .page-about-body .skigg-section5 .join-hq-title{
+        font-size: 6.8vw;
+    }
+
+    .page-about-body .skigg-section2 .leadership-title,
+    .page-about-body .skigg-section2 .leadership-view-bio,
+    .page-about-body .skigg-section3 .leadership-title,
+    .page-about-body .skigg-section3 .leadership-view-bio,
+    .page-about-body .skigg-section5 .join-hq-view-role{
+        font-size: 4.5vw;
+    }
+
+    .page-about-body .skigg-section3{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .page-about-body .column-list2 > li{
+        width: 100%;
+        padding: 0;
+    }
+
+    .page-about-body .skigg-section4{
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    .page-about-body .skigg-section4 .column-list2 > li{
+        margin-bottom: 100px;
+    }
+
+    .page-about-body .skigg-section5{
+        padding-top: 0;
+        padding-bottom: 0;
+        background: none;
+    }
+
+    .page-about-body .skigg-section5 .column-list2 > li{
+        width: 50%;
+    }
+
+    .page-about-body .skigg-section5 .bg-graphic{
+        width: 100%;
+        z-index: 1;
+    }
+
+    .page-about-body .skigg-section{
+        height: unset;
+    }
+
+    .page-about-body .skigg-section-footer .skigg-footer > ul > li:last-child{
+        text-align: left;
+    }
+
+    .page-about-body .skigg-section-footer{
+        padding: 100px 0;
+    }
+    .page-about-body .skigg-section-footer .skigg-footer{
+        width: 85%;
+        margin: auto;
+    }
+
+    .page-template-page-about .bio-modal{
+        padding: 30px 65px 30px 30px;
+    }
+
+
+    .page-template-page-about .bio-modal .bio-photo-cell{
+        display: none;
+    }
+
+}

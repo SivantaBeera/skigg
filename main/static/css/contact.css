@@ -1,0 +1,768 @@
+.page-contact-body{
+    background: #9900ff;
+    color: #FFF;
+}
+
+.page-contact-body .skigg-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.mktoForm, .mktoForm a{
+    padding: 0px !important;
+}
+
+
+
+
+.page-contact-body .form-trigger-btn{
+    width: unset;
+}
+
+.page-contact-body .skigg-header.fixed {
+    background: #9900ff;
+}
+
+.page-contact-body .skigg-section-footer{
+    background: #282a2c;
+    height: 375px;
+    color: #FFF;
+    padding: 40px;
+}
+
+.page-contact-body .skigg-section-footer .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-contact-body .skigg-section-footer .skigg-footer{
+    position: relative;
+    bottom: unset;
+    left: unset;
+    padding: 0;
+}
+
+.page-contact-body .column-list3 > li{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.page-contact-body .column-list3 > li .example-projects-title{
+    font-size: 42px;
+    margin-bottom: 30px;
+    padding-right: 72px;
+    position: relative;
+}
+
+.page-contact-body .column-list3 > li .example-projects-title img,
+.page-contact-body .skigg-section2 .why-join-title img{
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.page-contact-body .column-list3 > li:last-child{
+    padding-right: 0;
+}
+
+.page-contact-body .column-list3 > li{
+    width: 33.333333333333%;
+}
+
+.page-contact-body .skigg-section1{
+    padding: 100px 40px;
+    z-index: 2;
+}
+
+.page-contact-body .skigg-section1 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.page-contact-body .skigg-section1 .skigg-text .skigg-title-contact{
+    margin-bottom: 30px;
+}
+
+.page-contact-body .skigg-section1 .bg-graphic.bg-graphic-tl{
+    left: -150px;
+    z-index: -1;
+}
+
+.page-contact-body .skigg-section1 .bg-graphic.bg-graphic-br{
+    bottom: -70px;
+    right: 0;
+    z-index: -1;
+}
+
+.page-contact-body .skigg-section2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-contact-body .skigg-section2 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-contact-body .skigg-section2 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.page-contact-body .skigg-section2 .skigg-title-contact{
+    margin-bottom: 100px;
+}
+
+.page-contact-body .skigg-section2 .why-join-number{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-contact-body .skigg-section2 .why-join-title{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-right: 72px;
+    position: relative;
+}
+
+.page-contact-body .skigg-section2 .why-join-text{
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-contact-body .skigg-section2 .bg-graphic{
+    left: 0;
+    top: 50%;
+    width: 120px;
+    margin-top: -120px;
+}
+
+.page-contact-body .skigg-section3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-contact-body .skigg-section3 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    position: relative;
+}
+
+.page-contact-body .skigg-section3 .by-numbers-title{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.page-contact-body .skigg-section3 .by-numbers-text{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 105px;
+}
+
+.page-contact-body .skigg-section3 .skigg-title-contact{
+    padding-bottom: 100px;
+}
+
+.page-contact-body .skigg-section3 .bg-graphic{
+    left: -40px;
+    width: 100px;
+}
+
+.page-contact-body .skigg-section3 .bg-graphic.center{
+    width: 120%;
+    left: -100px;
+    top: 0;
+    z-index: -1;
+}
+
+.page-contact-body .skigg-section4{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.page-contact-body .skigg-section4 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-contact-body .skigg-section4 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Med', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    position: relative;
+}
+
+.page-contact-body .skigg-section4 .skigg-title-contact{
+    margin-bottom: 50px;
+	font-size: 62px !important;
+	font-family: 'Futura-Bol', Arial, Helvetica, sans-serif !important;
+}
+
+.page-contact-body .skigg-section4 .example-projects-text{
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-contact-body .skigg-section5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page-contact-body .skigg-section5 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-contact-body .skigg-section5 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    text-align: left;
+}
+
+.page-contact-body .skigg-section5 .bg-graphic{
+    bottom: -65px;
+	left: 355px;
+	width: 200px;
+	z-index: 1;
+}
+
+.page-contact-body .skigg-section-footer .skigg-footer > ul > li:last-child {
+    text-align: right;
+}
+
+.page-contact-body .column-list3{
+    font-size: 0;
+}
+
+.skigg-subtitle-contact{
+	font-size: 31px;
+}
+
+
+
+/* Marketo Form Style */
+
+#parent_div_1{
+    width:45%;
+    margin-right:10px;
+    float:left;
+}
+
+#parent_div_2{
+    width:45%;
+    margin-right:10px;
+    float:right;
+}
+
+.child_div_1{
+    float:right;
+    margin-right:5px;
+}
+
+#mktoForm_1026[style]{
+	font-size: 11px !important;
+	color: #ffffff !important;
+	font-weight: normal !important;
+	font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+#FirstName, #LastName, #Email, #Company, #Title, #Phone, #Country[style]{
+	font-size: 21px !important;
+	color: #ffffff !important;
+}
+
+#content-policy[span]{
+	padding-top: 50px !important;
+	display: inline-block !important;
+}
+
+/* --------------------- form labels --------------------------- */
+
+input[id^="FirstName"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="FirstName"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="FirstName"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="FirstName"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="LastName"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="LastName"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="LastName"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="LastName"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Email"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Email"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Email"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Email"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Company"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Company"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Company"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Company"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Title"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Title"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Title"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+input[id^="Title"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Phone"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Phone"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+input[id^="Phone"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+select[id^="Phone"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+select[id^="Country"]::-webkit-input-placeholder {
+	  color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+select[id^="Country"]::-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+select[id^="Country"]:-ms-input-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+select[id^="Country"]:-moz-placeholder {
+      color: #ffffff;
+	  opacity: 0.8;
+	  font-family: 'Futura-Boo', Arial, Helvetica, sans-serif;
+}
+
+#mktoForm_1026 input[style]{
+	color: #ffffff !important;
+	width: 300px !important;
+	border: none !important;
+  	border-bottom: 0.5px solid #ffffff !important;
+	background-color: #9900ff !important;
+	opacity: 1.0 !important;
+	font-family: 'Futura-Boo', Arial, Helvetica, sans-serif !important;
+	padding-bottom: 5px !important;
+}
+
+.mktoFieldWrap .mktoHtmlText .mktoHasWidth div[style]{
+    background-color:#F00;
+	font-size: 11px !important;
+	padding-top: 50px !important;
+}
+
+#mktoForm_1026 select[style]{
+	color: #f0dcfe !important;
+	width: 300px !important;
+	border: none !important;
+  	border-bottom: 0.5px solid /* #bf68fc */ #ffffff !important;
+	background-color: #9900ff !important;
+	background-image: url('/wp-content/themes/skigg/assets/images/down-arrow.svg');
+    background-position: 270px 0px;
+    background-repeat: no-repeat;
+	font-family: 'Futura-Boo', Arial, Helvetica, sans-serif !important;
+	/* for Firefox */
+  	-moz-appearance: none;
+  	/* for Chrome */
+  	-webkit-appearance: none;
+}
+
+.mktoAsterix{
+	display: none !important;
+}
+
+.mktoButtonRow {
+	padding-top: 50px !important;
+}
+
+.mktoButtonWrap .mktoCupidBlue{
+	margin-left: 0px !important;
+}
+
+.mktoHtmlText .mktoHasWidth [style]{
+	background-color: #E71B1E !important;
+}
+
+.mktoButton {
+	background-color:#9900ff !important;
+	border-radius:28px !important;
+	border:3px solid #ffffff !important;
+	display:inline-block !important;
+	cursor:pointer !important;
+	color:#ffffff !important;
+	font-family: 'Futura', Arial, Helvetica, sans-serif !important;
+	font-size:20px !important;
+	font-weight:bold !important;
+	padding:16px 31px !important;
+	text-decoration:none !important;
+	width: 180px !important;
+	text-shadow:none !important;
+	background-image: url('/wp-content/themes/skigg/assets/images/right-arrow.svg') !important;
+	background-position: 125px 7px !important;
+	background-repeat: no-repeat !important;
+	background-size: 50px 34px !important;
+}
+
+.mktoButton:hover {
+    -webkit-transition: 0.2s !important;
+    -moz-transition: 0.2s !important;
+    -ms-transition: 0.2s !important;
+    -o-transition: 0.2s !important;
+    color: #FFF !important;
+	opacity: 0.75 !important;
+}
+
+.mktoButton:active {
+	position:relative !important;
+	top:1px;
+}
+
+.page-talent-body .bg-graphic .bg-graphic-contact {
+    width: 120%;
+    left: -100px;
+    top: 0;
+    z-index: -1;
+}
+
+.page-talent-body .bg-graphic .center{
+    width: 120%;
+    left: -100px;
+    top: 0;
+    z-index: -1;
+}
+
+#test {
+    bottom: -40px;
+    left: 250px;
+    width: 200px;
+    z-index: 1;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skigg-section,
+    .page-contact-body .skigg-section1{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .page-contact-body .skigg-section1 .skigg-text,
+    .page-contact-body .skigg-section2 .skigg-text,
+    .page-contact-body .skigg-section3 .skigg-text,
+    .page-contact-body .skigg-section4 .skigg-text,
+    .page-contact-body .skigg-section5 .skigg-text{
+        max-width: unset;
+        width: 78%;
+        font-size: 4.1vw;
+    }
+
+    .page-contact-body .skigg-section2 .why-join-number,
+    .page-contact-body .skigg-section2 .why-join-text,
+    .page-contact-body .skigg-section4 .example-projects-text{
+        font-size: 1.9vw;
+    }
+
+    .page-contact-body .skigg-section2 .why-join-title{
+        font-size: 2.6vw;
+    }
+
+    .page-contact-body .skigg-section3 .by-numbers-title{
+        font-size: 2.5vw;
+    }
+
+    .page-contact-body .skigg-section3 .by-numbers-text{
+        font-size: 11.3vw;
+    }
+
+    .page-contact-body .column-list3 > li .example-projects-title{
+        font-size: 4.1vw;
+    }
+}
+
+/*@media (max-width: 768px) and (orientation: portrait)*/
+@media (max-width: 1000px) and (orientation: portrait) {
+    .page-contact-body .skigg-section {
+        position: relative;
+        padding: 100px 0;
+    }
+
+    .page-contact-body .skigg-section1 {
+        padding: 100px 0;
+    }
+
+    .page-contact-body .skigg-section2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .page-contact-body .skigg-text {
+        max-width: unset !important;
+        width: 85%;
+    }
+
+    .page-contact-body .skigg-section1 .bg-graphic.bg-graphic-tl{
+        left: -120px;
+    }
+
+    .page-contact-body .skigg-section1 .skigg-text,
+    .page-contact-body .skigg-section2 .skigg-text,
+    .page-contact-body .skigg-section2 .why-join-title,
+    .page-contact-body .column-list3 > li .example-projects-title,
+    .page-contact-body .skigg-section5 .skigg-text,
+    .page-contact-body .skigg-title-contact{
+        font-size: 7.5vw;
+    }
+
+    .page-contact-body .skigg-section2 .why-join-number,
+    .page-contact-body .skigg-section2 .why-join-text,
+    .page-contact-body .skigg-section4 .example-projects-text
+    {
+        font-size: 4.5vw;
+    }
+
+    .page-contact-body .column-list3 > li{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .page-contact-body .skigg-section2 .why-join-number img{
+        width: 26.1vw;
+    }
+
+    .page-contact-body .column-list3 > li:last-child{
+        margin-bottom: 0;
+    }
+
+    .page-contact-body .skigg-section3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .page-contact-body .skigg-section3 .column-list3 > li{
+        width: 50%;
+    }
+
+    .page-contact-body .skigg-section3 .column-list3 > li.mobile-mb0{
+        margin-bottom: 0;
+    }
+
+    .page-contact-body .skigg-section3 .by-numbers-text{
+        font-size: 16.5vw;
+    }
+
+    .page-contact-body .skigg-section3 .by-numbers-title{
+        font-size: 4vw;
+    }
+
+    .page-contact-body .skigg-section3 .bg-graphic.center{
+        width: 124%;
+        left: -100px;
+        top: 38vw;
+        z-index: -1;
+    }
+
+    .page-contact-body .skigg-section4{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .page-contact-body .column-list3 > li .example-projects-title img{
+        position: absolute;
+        height: 12.5vw;
+        top: 0;
+        right: 0;
+    }
+
+    .page-contact-body .skigg-section4 .example-projects-title,
+    .page-contact-body .skigg-section2 .why-join-title{
+        padding-right: 18vw;
+        position: relative;
+    }
+
+    .page-contact-body .skigg-section5{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .page-contact-body .skigg-section5 .bg-graphic{
+        left: unset;
+        right: 30px;
+    }
+
+
+    .page-contact-body .skigg-section-footer{
+        height: unset;
+        padding-bottom: 200px;
+        padding-top: 100px;
+    }
+
+    .page-contact-body .skigg-section-footer .skigg-footer > ul > li:last-child{
+        text-align: left;
+    }
+
+    .page-contact-body .skigg-section-footer{
+        padding: 100px 0;
+    }
+    .page-contact-body .skigg-section-footer .skigg-footer{
+        width: 85%;
+        margin: auto;
+    }
+
+	#parent_div_2{
+		width:100%;
+		margin-right:10px;
+		float:left;
+		padding-top: 50px;
+	}
+
+	#parent_div_1{
+		width:100%;
+		margin-right:10px;
+		float:left;
+	}
+
+	.child_div_1{
+		float:left;
+		margin-right:5px;
+	}
+
+}
+
+@media screen and (max-width: 426px) and (orientation: portrait){
+	#mktoForm_1026 select[style]{
+		width: 250px !important;
+	}
+
+	#mktoForm_1026 input[style]{
+		width: 250px !important;
+	}
+
+	.mktoHtmlText .mktoHasWidth div[style]{
+		width: 250px !important;
+	}
+ }

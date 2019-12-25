@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+	border:none;
+	vertical-align:baseline;
+	font-smoothing:antialiased;
+		-moz-font-smoothing:antialiased;
+		-webkit-font-smoothing:antialiased;
+	box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+}
+*:focus{outline:none;}
+a{text-decoration:none;color:#00abcc;}
+a:hover{color:#000;}
+a:active, a:focus{outline:none;}
+img{border:none;}
+
+h1, h2 {
+	font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}

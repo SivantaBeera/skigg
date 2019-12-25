@@ -1,0 +1,411 @@
+.page-talent-body{
+    background: #9900ff;
+    color: #FFF;
+}
+
+.page-talent-body .skigg-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.page-talent-body .form-trigger-btn{
+    width: unset;
+}
+
+.page-talent-body .skigg-header.fixed {
+    background: #9900ff;
+}
+
+.page-talent-body .skigg-section-footer{
+    background: #282a2c;
+    height: 375px;
+    color: #FFF;
+    padding: 40px;
+}
+
+.page-talent-body .skigg-section-footer .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-talent-body .skigg-section-footer .skigg-footer{
+    position: relative;
+    bottom: unset;
+    left: unset;
+    padding: 0;
+}
+
+.page-talent-body .column-list3 > li{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.page-talent-body .column-list3 > li .example-projects-title{
+    font-size: 42px;
+    margin-bottom: 30px;
+    padding-right: 72px;
+    position: relative;
+}
+
+.page-talent-body .column-list3 > li .example-projects-title img,
+.page-talent-body .skigg-section2 .why-join-title img{
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.page-talent-body .column-list3 > li:last-child{
+    padding-right: 0;
+}
+
+.page-talent-body .column-list3 > li{
+    width: 33.333333333333%;
+}
+
+.page-talent-body .skigg-section1{
+    padding: 200px 40px 100px 40px;
+    z-index: 2;
+}
+
+.page-talent-body .skigg-section1 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.page-talent-body .skigg-section1 .skigg-text .skigg-title{
+    margin-bottom: 30px;
+}
+
+.page-talent-body .skigg-section1 .bg-graphic.bg-graphic-tl{
+    left: -150px;
+    z-index: -1;
+}
+
+.page-talent-body .skigg-section1 .bg-graphic.bg-graphic-br{
+    bottom: -70px;
+    right: 0;
+    z-index: -1;
+}
+
+.page-talent-body .skigg-section2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-talent-body .skigg-section2 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-talent-body .skigg-section2 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.page-talent-body .skigg-section2 .skigg-title{
+    margin-bottom: 100px;
+}
+
+.page-talent-body .skigg-section2 .why-join-number{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-talent-body .skigg-section2 .why-join-title{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-right: 72px;
+    position: relative;
+}
+
+.page-talent-body .skigg-section2 .why-join-text{
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-talent-body .skigg-section2 .bg-graphic{
+    right: 0;
+    top: 50%;
+    width: 120px;
+    margin-top: -120px;
+}
+
+.page-talent-body .skigg-section3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-talent-body .skigg-section3 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    position: relative;
+}
+
+.page-talent-body .skigg-section3 .by-numbers-title{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.page-talent-body .skigg-section3 .by-numbers-text{
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 105px;
+}
+
+.page-talent-body .skigg-section3 .skigg-title{
+    padding-bottom: 100px;
+}
+
+.page-talent-body .skigg-section3 .bg-graphic{
+    left: -40px;
+    width: 100px;
+}
+
+.page-talent-body .skigg-section3 .bg-graphic.center{
+    width: 120%;
+    left: -100px;
+    top: 0;
+    z-index: -1;
+}
+
+.page-talent-body .skigg-section4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-talent-body .skigg-section4 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-talent-body .skigg-section4 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    position: relative;
+}
+
+.page-talent-body .skigg-section4 .skigg-title{
+    margin-bottom: 100px;
+}
+
+.page-talent-body .skigg-section4 .example-projects-text{
+    font-family: 'Futura-Dem', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page-talent-body .skigg-section5{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.page-talent-body .skigg-section5 .skigg-table-cell{
+    vertical-align: top;
+}
+
+.page-talent-body .skigg-section5 .skigg-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Futura-Bol', Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    text-align: left;
+}
+
+.page-talent-body .skigg-section5 .bg-graphic{
+    bottom: -40px;
+    left: 250px;
+    width: 200px;
+    z-index: 1;
+}
+
+.page-talent-body .skigg-section-footer .skigg-footer > ul > li:last-child {
+    text-align: right;
+}
+
+.page-talent-body .column-list3{
+    font-size: 0;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skigg-section,
+    .page-talent-body .skigg-section1{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .page-talent-body .skigg-section1 .skigg-text,
+    .page-talent-body .skigg-section2 .skigg-text,
+    .page-talent-body .skigg-section3 .skigg-text,
+    .page-talent-body .skigg-section4 .skigg-text,
+    .page-talent-body .skigg-section5 .skigg-text{
+        max-width: unset;
+        width: 78%;
+        font-size: 4.1vw;
+    }
+
+    .page-talent-body .skigg-section2 .why-join-number,
+    .page-talent-body .skigg-section2 .why-join-text,
+    .page-talent-body .skigg-section4 .example-projects-text{
+        font-size: 1.9vw;
+    }
+
+    .page-talent-body .skigg-section2 .why-join-title{
+        font-size: 2.6vw;
+    }
+
+    .page-talent-body .skigg-section3 .by-numbers-title{
+        font-size: 2.5vw;
+    }
+
+    .page-talent-body .skigg-section3 .by-numbers-text{
+        font-size: 11.3vw;
+    }
+
+    .page-talent-body .column-list3 > li .example-projects-title{
+        font-size: 4.1vw;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .page-talent-body .skigg-section {
+        position: relative;
+        padding: 100px 0;
+    }
+
+    .page-talent-body .skigg-section1 {
+        padding: 100px 0;
+    }
+
+    .page-talent-body .skigg-section2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .page-talent-body .skigg-text {
+        max-width: unset !important;
+        width: 85%;
+    }
+
+    .page-talent-body .skigg-section1 .bg-graphic.bg-graphic-tl{
+        left: -120px;
+    }
+
+    .page-talent-body .skigg-section1 .skigg-text,
+    .page-talent-body .skigg-section2 .skigg-text,
+    .page-talent-body .skigg-section2 .why-join-title,
+    .page-talent-body .column-list3 > li .example-projects-title,
+    .page-talent-body .skigg-section5 .skigg-text,
+    .page-talent-body .skigg-title{
+        font-size: 7.5vw;
+    }
+
+    .page-talent-body .skigg-section2 .why-join-number,
+    .page-talent-body .skigg-section2 .why-join-text,
+    .page-talent-body .skigg-section4 .example-projects-text
+    {
+        font-size: 4.5vw;
+    }
+
+    .page-talent-body .column-list3 > li{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .page-talent-body .skigg-section2 .why-join-number img{
+        width: 26.1vw;
+    }
+
+    .page-talent-body .column-list3 > li:last-child{
+        margin-bottom: 0;
+    }
+
+    .page-talent-body .skigg-section3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .page-talent-body .skigg-section3 .column-list3 > li{
+        width: 50%;
+    }
+
+    .page-talent-body .skigg-section3 .column-list3 > li.mobile-mb0{
+        margin-bottom: 0;
+    }
+
+    .page-talent-body .skigg-section3 .by-numbers-text{
+        font-size: 16.5vw;
+    }
+
+    .page-talent-body .skigg-section3 .by-numbers-title{
+        font-size: 4vw;
+    }
+
+    .page-talent-body .skigg-section3 .bg-graphic.center{
+        width: 124%;
+        left: -100px;
+        top: 38vw;
+        z-index: -1;
+    }
+
+    .page-talent-body .skigg-section4{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .page-talent-body .column-list3 > li .example-projects-title img{
+        position: absolute;
+        height: 12.5vw;
+        top: 0;
+        right: 0;
+    }
+
+    .page-talent-body .skigg-section4 .example-projects-title,
+    .page-talent-body .skigg-section2 .why-join-title{
+        padding-right: 18vw;
+        position: relative;
+    }
+
+    .page-talent-body .skigg-section5{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .page-talent-body .skigg-section5 .bg-graphic{
+        left: unset;
+        right: 30px;
+    }
+
+
+    .page-talent-body .skigg-section-footer{
+        height: unset;
+        padding-bottom: 200px;
+        padding-top: 100px;
+    }
+
+    .page-talent-body .skigg-section-footer .skigg-footer > ul > li:last-child{
+        text-align: left;
+    }
+
+    .page-talent-body .skigg-section-footer{
+        padding: 100px 0;
+    }
+    .page-talent-body .skigg-section-footer .skigg-footer{
+        width: 85%;
+        margin: auto;
+    }
+
+}

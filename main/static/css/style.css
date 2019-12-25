@@ -1,0 +1,16 @@
+@import url('webfonts.css');
+
+@import url('reset.css');
+@import url('common.css');
+
+@import url('cursor-animation.css');
+
+/* pages */
+@import url('home.css');
+@import url('about.css');
+@import url('talent.css');
+@import url('privacy.css');
+@import url('terms.css');
+@import url('form.page.css');
+@import url('contact.css');
+@import url('thank-you.css');
